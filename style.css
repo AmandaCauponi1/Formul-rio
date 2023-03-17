@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1E1E1E;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 38px;
+}
+.bola{
+    background-color: #0073b0;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    position: relative;
+    left: 752px;
+    bottom: 39px;
+}
+.high{
+    width: 328px;
+    height: 70px;
+    margin-top: 80px;
+    left: 160px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+   margin-left: 423px;
+}
+
+.img{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+
+}
+
+.img2{
+    position: relative;
+    right: 50px;
+}
+.img3{
+    position: relative;
+    right: 100px;
+}
+form{
+    position: absolute;
+    height: 476px;
+    width: 480px;
+    right: 280px;
+    background: #F9F9FB;
+    border-radius: 4px;
+    margin-top: 18px;
+    padding-top: 58px;
+    
+}
+.label{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+   
+}
+.em{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    gap: 6px;
+    color: rgba(113, 128, 185, 0.32);
+    
+}
+.em1{
+    background-color: rgba(113, 128, 185, 0.32);
+    height: 48px;
+    border-radius: 4px;
+    width: 380px;
+    border: none;
+    padding-top: 3px;
+    padding-left: 40px;
+}
+.em2{
+    background-color: rgba(113, 128, 185, 0.32);
+    height: 48px;
+    border-radius: 4px;
+    width: 380px;
+    border: none;
+    padding-top: 3px;
+    padding-left: 40px;
+}
+form input{
+    padding-left: 30px;
+}
+form input::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.img4{
+    position: relative;
+    bottom: 42px;
+    right: 165px;
+    /* padding-right: 65px; */
+    
+}
+.img5{
+    position: relative;
+    bottom: 42px;
+    right: 165px;
+    
+}
+.btn{
+    background-color: #7180B9;
+    width: 380px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.line{
+    padding-left: 180px;
+    padding-top: 18px;
+}
+
+.btn2{
+    background-color: #7180B9;
+    width: 260px;
+    height: 48px;
+    position: relative;
+    right: 11px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.junto{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 25px;
+}
+p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+#error{
+    position: absolute;
+    bottom: 300px;
+}
